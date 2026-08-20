@@ -1,4 +1,4 @@
-# Dynamic Text Changer Pro
+# Dynamic Text Changer
 
 A professional, feature-rich Flutter application that demonstrates real-time UI updates with a focus on adaptive design, state management, and data persistence.
 
