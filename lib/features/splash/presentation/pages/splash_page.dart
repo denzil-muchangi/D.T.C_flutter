@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../navigation/presentation/pages/navigation_container.dart';
+import 'package:dynamic_text_changer/features/navigation/presentation/pages/navigation_container.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

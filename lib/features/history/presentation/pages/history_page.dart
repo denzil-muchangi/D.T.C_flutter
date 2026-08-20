@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../text_changer/presentation/providers/text_changer_provider.dart';
+import 'package:dynamic_text_changer/features/text_changer/presentation/providers/text_changer_provider.dart';
 
 class HistoryPage extends StatelessWidget {
   const HistoryPage({super.key});

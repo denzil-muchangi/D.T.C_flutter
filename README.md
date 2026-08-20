@@ -1,40 +1,63 @@
-# Dynamic Text Changer
+# Dynamic Text Changer Pro
 
-A simple Flutter application that demonstrates real-time UI updates. As you type into the text field, the text below it updates instantly. This project serves as a great example of using a `StatefulWidget` to manage and reflect UI changes based on user input.
+A professional, feature-rich Flutter application that demonstrates real-time UI updates with a focus on adaptive design, state management, and data persistence.
 
-## Features
+## 🚀 Key Features
 
-- **Real-time Updates**: The display text changes character-by-character as the user types into the `TextField`.
-- **State Management**: A basic but clear example of using `StatefulWidget` and `setState` to manage UI state.
-- **Simple & Clean UI**: A focused interface built with Material Design widgets, including a `TextField` for input and a `Text` widget for output.
+- **Adaptive Layout**: Native feel across all devices. Uses a `BottomNavigationBar` on mobile and a `NavigationRail` on tablets or landscape mode.
+- **Persistent History**: Never lose your thoughts. Save your dynamic text to a history list that persists across app restarts using `shared_preferences`.
+- **State Management**: Built with the `Provider` package for clean, reactive, and scalable state handling.
+- **Dark Mode Support**: Fully integrated Material 3 theme with a dedicated setting to toggle between Light and Dark modes.
+- **Utility Tools**: Quick actions to **Copy to Clipboard**, **Save to History**, and **Restore** previous entries.
+- **Elegant UX**: Includes a custom animated splash screen and smooth transitions.
 
-## Preview
+## 🏗 Architecture: Feature-First
 
-The application displays a title "Dynamic Text Changer", a text input field with a label, and a text area below it. When a user types into the input field, the text below dynamically updates to mirror the input.
+The project follows a scalable **Feature-First** structure, making it easy to maintain and expand:
 
-![Dynamic Text Changer App Preview](screenshots/app_screenshot.png)
+```text
+lib/
+├── core/               # Shared logic, theme, and storage services
+├── features/
+│   ├── history/        # History list and restore logic
+│   ├── navigation/     # Adaptive navigation container
+│   ├── settings/       # App preferences and theme toggles
+│   ├── splash/         # Entry animations
+│   └── text_changer/   # Core dynamic text feature
+└── app.dart            # Global configuration and provider setup
+```
 
-*To generate the preview above, run the application and capture a screenshot or a GIF. Save it as `preview.gif` inside a new `assets` folder in the root of your project.*
+## 📸 Preview
 
-## Getting Started
+![App Overview](screenshots/app_overview.png)
+*Adaptive navigation showing Bottom Bar (Mobile) vs Rail (Tablet)*
 
-This project is a starting point for a Flutter application.
+## 🛠 Getting Started
 
 ### Prerequisites
 
-Make sure you have the Flutter SDK installed on your machine. For instructions, see the online documentation.
+- Flutter SDK (^3.8.1)
+- Android Studio / VS Code
 
-### Running the Application
+### Installation
 
-1.  Clone the repository or download the source code.
-2.  Navigate to the project directory in your terminal.
-3.  Install the necessary packages:
+1.  Clone the repository.
+2.  Install dependencies:
     ```sh
     flutter pub get
     ```
-4.  Run the app on a connected device or emulator:
+3.  Run the application:
     ```sh
     flutter run
     ```
 
-For more help with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.
+## 🧪 Technologies Used
+
+- **Flutter**: UI Toolkit
+- **Provider**: State Management
+- **Shared Preferences**: Local Persistence
+- **Material 3**: Modern Design System
+
+---
+
+*Developed with ❤️ as a demonstration of professional Flutter development standards.*

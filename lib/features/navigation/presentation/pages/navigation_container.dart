@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../text_changer/presentation/pages/text_changer_page.dart';
-import '../../history/presentation/pages/history_page.dart';
-import '../../settings/presentation/pages/settings_page.dart';
+import 'package:dynamic_text_changer/features/text_changer/presentation/pages/text_changer_page.dart';
+import 'package:dynamic_text_changer/features/history/presentation/pages/history_page.dart';
+import 'package:dynamic_text_changer/features/settings/presentation/pages/settings_page.dart';
 
 class NavigationContainer extends StatefulWidget {
   const NavigationContainer({super.key});

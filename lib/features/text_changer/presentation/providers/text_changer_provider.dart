@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../core/storage/storage_service.dart';
+import 'package:dynamic_text_changer/core/storage/storage_service.dart';
 
 class TextChangerProvider extends ChangeNotifier {
   final StorageService _storageService;
