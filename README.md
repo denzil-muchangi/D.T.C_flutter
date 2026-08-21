@@ -29,8 +29,45 @@ lib/
 
 ## 📸 Preview
 
-![App Overview](screenshots/app_overview.png)
-*Adaptive navigation showing Bottom Bar (Mobile) vs Rail (Tablet)*
+### 📱 Text Changer
+*Real-time text manipulation with instant UI feedback.*
+
+| Light Mode | Dark Mode |
+|:---:|:---:|
+| ![Text Changer Mobile Light](screenshots/changer_mobile_light_mode.png) | ![Text Changer Mobile Dark](screenshots/changer_mobile_dark_mode.png) |
+
+**Adaptive Tablet Views**
+| Tablet Landscape | Tablet Portrait |
+|:---:|:---:|
+| ![Text Changer Tablet Landscape](screenshots/changer_tablet_light_mode.png) | ![Text Changer Tablet Portrait](screenshots/changer_tablet_portrait_light_mode.png) |
+| *Dark Mode* | *Dark Mode* |
+| ![Text Changer Tablet Landscape Dark](screenshots/changer_tablet_dark_mode.png) | ![Text Changer Tablet Portrait Dark](screenshots/changer_tablet_portrait_dark_mode.png) |
+
+### 📜 History
+*Persistent storage for all your text entries.*
+
+| Mobile Light | Mobile Dark |
+|:---:|:---:|
+| ![History Mobile Light](screenshots/history_mobile_light_mode.png) | ![History Mobile Dark](screenshots/history_mobile_dark_mode.png) |
+
+**Tablet History**
+| Landscape | Portrait |
+|:---:|:---:|
+| ![History Tablet Landscape](screenshots/history_tablet_light_mode.png) | ![History Tablet Portrait](screenshots/history_tablet_portrait_light_mode.png) |
+| ![History Tablet Landscape Dark](screenshots/history_tablet_dark_mode.png) | ![History Tablet Portrait Dark](screenshots/history_tablet_portrait_dark_mode.png) |
+
+### ⚙️ Settings
+*Customizable theme and app preferences.*
+
+| Mobile Light | Mobile Dark |
+|:---:|:---:|
+| ![Settings Mobile Light](screenshots/settings_mobile_light_mode.png) | ![Settings Mobile Dark](screenshots/settings_mobile_dark_mode.png) |
+
+**Tablet Settings**
+| Landscape | Portrait |
+|:---:|:---:|
+| ![Settings Tablet Landscape](screenshots/settings_tablet_light_mode.png) | ![Settings Tablet Portrait](screenshots/settings_tablet_portrait_light_mode.png) |
+| ![Settings Tablet Landscape Dark](screenshots/settings_tablet_dark_mode.png) | ![Settings Tablet Portrait Dark](screenshots/settings_tablet_portrait_dark_mode.png) |
 
 ## 🛠 Getting Started
 
